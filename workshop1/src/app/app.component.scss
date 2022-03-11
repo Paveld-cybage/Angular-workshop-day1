@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+  padding: 0;
+  font-family: 'Fredoka', sans-serif;
+}
+
+
+.first-container {
+    background-color: rgba(245, 242, 241, 0.918);
+    position: relative;
+    padding-top: 0px;
+    font-size: 200%;
+    overflow: hidden;
+    height: 150px;
+}
+
+
+
+ a {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 146px;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+ a:hover{
+    text-decoration: underline;
+    color: rgb(216, 190, 40);
+	text-decoration-color: rgb(216, 190, 40);
+	-webkit-text-decoration-color: rgb(216, 190, 40);
+}
+
+.first-container a.active{
+    // background-color: rgb(250, 185, 6);
+    text-decoration: underline;
+    color: rgb(216, 190, 40);
+	text-decoration-color: rgb(216, 190, 40);
+	-webkit-text-decoration-color: rgb(216, 190, 40);
+}
+
+.flex-container {
+    display: flex;
+    position: relative;
+   
+}
+
+.flex-child {
+    flex: 1;
+   
+    height: 560px;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 126px;
+    font-size: 100px;
+}
+
+p{
+    text-align: center;
+}
+
+
+
+/* CSS */
+.button-5 {
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transform: translateX(188%);
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+img{
+    width: 900px;  
+height: 560px;  
+ 
+object-fit: none;  
+object-position: right top; 
+}
+
+.iconImage{
+    
+    width: 100px;
+    height: 100px;
+}
+.icon {
+    float: left;
+}
+
